@@ -8,14 +8,15 @@ Jeremy Miller
 ## Repository Structure
 ```
 Powershell/
-├── ActiveDirectory/          # Active Directory management scripts
+├── Windows/
+│   └── Active Directory/     # Active Directory management scripts
 └── (more categories as added)
 ```
 
 ## Scripts
 
 ### Active Directory
-- **[Export-ADUsers](./ActiveDirectory/Export-ADUsers/)** - Export Active Directory user accounts to CSV with comprehensive details
+- **[Export-ADUsers](Windows/Active%20Directory/Export-ADUsers.ps1)** - Export Active Directory user accounts to CSV with comprehensive details
 
 ## Requirements
 - Windows PowerShell 5.1 or later
