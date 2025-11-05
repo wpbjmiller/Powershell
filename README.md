@@ -17,6 +17,7 @@ Powershell/
 
 ### Active Directory
 - **[Export-ADUsers](Windows/Active%20Directory/Export-ADUsers.ps1)** - Export Active Directory user accounts to CSV with comprehensive details
+- **[Test-ADHealth](Windows/Active%20Directory/Test-ADHealth.ps1)** - Thorough test of your Active Directory environment with an export to HTML report
 
 ## Requirements
 - Windows PowerShell 5.1 or later
