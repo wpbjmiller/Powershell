@@ -1,5 +1,4 @@
 # PowerShell Scripts Repository
-
 A collection of PowerShell scripts for system administration and automation tasks.
 
 ## Author
@@ -8,12 +7,17 @@ Jeremy Miller
 ## Repository Structure
 ```
 Powershell/
+├── M365/
+│   └── O365AdminReport.ps1   # Microsoft 365 admin role assignment report
 ├── Windows/
 │   └── Active Directory/     # Active Directory management scripts
 └── (more categories as added)
 ```
 
 ## Scripts
+
+### Microsoft 365
+- **[O365AdminReport](M365/O365AdminReport.ps1)** - Export Microsoft 365 admin role assignments to CSV using Microsoft Graph. Supports all admins, role-based, per-user, and per-role reporting modes with certificate-based authentication support for unattended runs.
 
 ### Active Directory
 - **[Export-ADUsers](Windows/Active%20Directory/Export-ADUsers.ps1)** - Export Active Directory user accounts to CSV with comprehensive details
@@ -42,5 +46,4 @@ This repository is provided as-is for educational and professional use.
 Always test scripts in a non-production environment first. Ensure you have appropriate permissions and backups before running scripts that modify system configurations.
 
 ---
-
 **Repository:** https://github.com/wpbjmiller/Powershell
